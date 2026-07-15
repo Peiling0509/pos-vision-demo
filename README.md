@@ -1,8 +1,4 @@
-# 🛒 Smart POS Vision: AI-Enhanced Inventory Management
-
-<div align="center">
-  <img src="docs/thumbnail.jpg" alt="POS NOW PRO Thumbnail" width="100%">
-</div>
+# 🛒 Smart POS Vision: AI-Enhanced Inventory Management (Demo)
 
 <br>
 
@@ -17,7 +13,7 @@
 
 <br>
 
-> A Point of Sale (POS) ecosystem designed to modernize retail inventory management. This project bridges traditional operations with AI by combining standard SKU barcode scanning with computer vision (YOLO) to instantly quantify shelf stock, alongside a dynamic RAG-powered SQL Agent for instant database querying.
+> This is a demo for a Point of Sale (POS) ecosystem designed to modernize retail inventory management. This project bridges traditional operations with AI by combining standard SKU barcode scanning with computer vision (YOLO) to instantly quantify shelf stock, alongside a dynamic RAG-powered SQL Agent for instant database querying.
 
 ## ✨ Key Features
 
@@ -43,15 +39,15 @@ Smart POS Vision operates on a decoupled, microservice-inspired architecture:
 Building a hybrid AI/traditional software system presented unique challenges. Here is how I solved them:
 
 ### 1. Combating AI Hallucinations in the Database
-**Problem:** Relying solely on AI vision for inventory updates resulted in "ghost records" (e.g., creating a new item called `Dutch Lady` instead of updating the existing `Dutch Lady 1L` SKU). 
+**Problem:** Relying solely on AI vision for inventory updates resulted in "ghost records" (e.g., creating a new item called `Dutch Lady` instead of updating the existing `Dutch Lady 1L` SKU). <br>
 **Solution:** Architected a strict **"SKU-First" Hybrid Workflow**. The system forces the user to scan the definitive SKU barcode first, using the AI camera strictly as a quantitative counter bound to that specific SKU, entirely eliminating duplicate and missing records.
 
 ### 2. Inconsistent Object Detection in Real-World Scenarios
-**Problem:** The initial YOLO model occasionally struggled to recognize products under varying real-world store conditions, such as poor lighting or unusual camera angles.
+**Problem:** The initial YOLO model occasionally struggled to recognize products under varying real-world store conditions, such as poor lighting or unusual camera angles.<br>
 **Solution:** Implemented extensive **Data Augmentation** techniques. By synthetically expanding the training dataset with varied brightness levels, rotations, scaling, and perspectives, the model's robustness and inference accuracy significantly improved across diverse environments.
 
 ### 3. Managing UI State During Asynchronous Operations
-**Problem:** Users were prematurely navigating away from the vision confirmation screen before the Laravel backend had fully synced the new inventory quantities.
+**Problem:** Users were prematurely navigating away from the vision confirmation screen before the Laravel backend had fully synced the new inventory quantities.<br>
 **Solution:** Refactored the result list into independent `StatefulWidgets`. This provided localized, dynamic loading indicators for each detected item, visually locking the action until a successful `200 OK` response was received from the server.
 
 ---
@@ -60,12 +56,14 @@ Building a hybrid AI/traditional software system presented unique challenges. He
 
 *(Include GIFs or screenshots of the app in action here)*
 
-| Mobile Dashboard | AI Vision Counter | RAG Chat Assistant |
-| :---: | :---: | :---: |
-| <img src="docs/frontend_1.jpg" width="250"> | <img src="docs/frontend_2.jpg" width="250"> | <img src="docs/frontend_3.jpg" width="250"> |
-
-| Web Admin Panel | Web Inventory Details |
+| AI Vision Counter | RAG Chat Assistant |
 | :---: | :---: |
-| <img src="docs/backend_1.jpg" width="400"> | <img src="docs/backend_2.jpg" width="400"> |
+| <img width="486" height="1080" alt="frontend_3" src="https://github.com/user-attachments/assets/7c2ae3db-47be-49c0-9c18-d9f15987eeb2" /> | <img width="486" height="1080" alt="frontend_2" src="https://github.com/user-attachments/assets/c7199840-2660-4471-9dec-051db0d6d926" /> |
+
+| Product Knowledge | Web Inventory Details |
+| :---: | :---: |
+| <img width="1810" height="605" alt="backend_1" src="https://github.com/user-attachments/assets/206880a6-d6b6-47e7-9320-428ab7e21a40" />
+ |<img width="1882" height="712" alt="backend_5" src="https://github.com/user-attachments/assets/7502c587-33ed-4425-a835-af9948ad405e" /> |
+
 
 **🎥 [Watch the full Demo Video here](docs/demo-video.mp4)**
