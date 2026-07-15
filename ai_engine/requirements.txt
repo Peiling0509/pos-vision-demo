@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+python-multipart
+ultralytics
+opencv-python-headless
+numpy
+langchain
+langchain-openai
+langchain-community
+pymysql
+cryptography
+python-dotenv
