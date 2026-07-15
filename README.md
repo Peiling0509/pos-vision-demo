@@ -54,16 +54,13 @@ Building a hybrid AI/traditional software system presented unique challenges. He
 
 ## 📸 Gallery & Demo
 
-*(Include GIFs or screenshots of the app in action here)*
-
 | AI Vision Counter | RAG Chat Assistant |
 | :---: | :---: |
-| <img width="486" height="1080" alt="frontend_3" src="https://github.com/user-attachments/assets/7c2ae3db-47be-49c0-9c18-d9f15987eeb2" /> | <img width="486" height="1080" alt="frontend_2" src="https://github.com/user-attachments/assets/c7199840-2660-4471-9dec-051db0d6d926" /> |
+| <img src="https://github.com/user-attachments/assets/7c2ae3db-47be-49c0-9c18-d9f15987eeb2" width="250"/> | <img src="https://github.com/user-attachments/assets/c7199840-2660-4471-9dec-051db0d6d926" width="250"/> |
 
 | Product Knowledge | Web Inventory Details |
 | :---: | :---: |
-| <img width="1810" height="605" alt="backend_1" src="https://github.com/user-attachments/assets/206880a6-d6b6-47e7-9320-428ab7e21a40" />
- |<img width="1882" height="712" alt="backend_5" src="https://github.com/user-attachments/assets/7502c587-33ed-4425-a835-af9948ad405e" /> |
+| <img src="https://github.com/user-attachments/assets/206880a6-d6b6-47e7-9320-428ab7e21a40" width="450"/> | <img src="https://github.com/user-attachments/assets/7502c587-33ed-4425-a835-af9948ad405e" width="450"/> |
 
 
 **🎥 [Watch the full Demo Video here](docs/demo-video.mp4)**
