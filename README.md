@@ -19,8 +19,8 @@
 
 *   **📱 Neumorphic UI Experience:** A fully custom, highly responsive Flutter mobile interface featuring fluid animations and localized stateful loading indicators.
 *   **📸 Hybrid AI Vision Engine:** Architected a strict "SKU-First" workflow that pairs exact barcode scanning with YOLO-based computer vision quantification—guaranteeing 100% database integrity and eliminating AI hallucinations (ghost records).
-*   **🧠 Real-Time AI Retail Agent** Engineered a LangGraph SQL Agent featuring ChromaDB RAG. It dynamically queries live MySQL data to answer complex inventory questions, delivering a ChatGPT-like "typing effect" via highly optimized Server-Sent Events (SSE) streaming.
-*   **🏢 Enterprise-Grade Admin Ecosystem** Backed by a robust Laravel API and a comprehensive Filament PHP dashboard for real-time inventory tracking, pricing, and product knowledge management.
+*   **🧠 Real-Time AI Retail Agent:** Engineered a LangGraph SQL Agent featuring ChromaDB RAG. It dynamically queries live MySQL data to answer complex inventory questions, delivering a ChatGPT-like "typing effect" via highly optimized Server-Sent Events (SSE) streaming.
+*   **🏢 Enterprise-Grade Admin Ecosystem:** Backed by a robust Laravel API and a comprehensive Filament PHP dashboard for real-time inventory tracking, pricing, and product knowledge management.
 
 ---
 
