@@ -1,0 +1,44 @@
+# ==========================
+# API Server
+# ==========================
+fastapi
+uvicorn[standard]
+python-multipart
+python-dotenv
+
+
+# ==========================
+# Computer Vision
+# ==========================
+ultralytics
+opencv-python-headless
+numpy
+
+
+# ==========================
+# LangChain / Agent
+# ==========================
+langchain
+langchain-openai
+langchain-community
+langgraph
+
+
+# ==========================
+# Database
+# ==========================
+pymysql
+cryptography
+
+
+# ==========================
+# RAG
+# ==========================
+chromadb
+sentence-transformers
+
+
+# ==========================
+# Utilities
+# ==========================
+pydantic
