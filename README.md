@@ -34,6 +34,12 @@ The ecosystem operates on a decoupled, highly scalable architecture:
 
 ---
 
+## 🏗️ System Architecture
+
+Smart POS Vision follows an end-to-end AI application architecture combining computer vision, LLM agents, RAG pipelines, and full-stack services.
+
+![Smart POS Vision AI-Enhanced Inventory Management Architecture](docs/architecture.png)
+
 
 ## 📸 Gallery & Demo
 
