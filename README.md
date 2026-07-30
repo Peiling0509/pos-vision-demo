@@ -43,9 +43,9 @@ Smart POS Vision follows an end-to-end AI application architecture combining com
 
 ## 📸 Gallery & Demo
 
-| AI Vision Counter | RAG Chat Assistant (Streaming) |
-| :---: | :---: |
-| <img src="https://github.com/user-attachments/assets/7c2ae3db-47be-49c0-9c18-d9f15987eeb2" width="250"/> | <img src="https://github.com/user-attachments/assets/c7199840-2660-4471-9dec-051db0d6d926" width="250"/> |
+Dashboard | AI Vision Counter | RAG Chat Assistant (Streaming) |
+| :---: | :---: | :---: |
+<img width="486" height="1080" alt="dashboard" src="https://github.com/user-attachments/assets/7c60fa0b-a327-489d-9fc8-67fb12510a10" /> | <img src="https://github.com/user-attachments/assets/7c2ae3db-47be-49c0-9c18-d9f15987eeb2" width="250"/> | <img width="486" height="1080" alt="ai_chart" src="https://github.com/user-attachments/assets/3ff9dcba-b8c3-445e-bab9-0b0b67a3ea5f" /> |
 
 | Product Knowledge | Web Inventory Details |
 | :---: | :---: |
